@@ -39,7 +39,7 @@ namespace MyRsa
 
 
 
-            Console.WriteLine("Original Data    : {0}", ByteConverter.GetString(DataAfterDecrypt));
+            Console.WriteLine("Original Data    : {0}", ByteConverter.GetString(DataToEncrypt));
             Console.WriteLine("DataAfterDecrypt : {0}", ByteConverter.GetString(DataAfterDecrypt));
 
             Util.PrintByteArray(EncryptedData, "EncryptedData");
